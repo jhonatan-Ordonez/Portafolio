@@ -1,0 +1,470 @@
+@media only screen and (max-width: 810px){
+
+    .first-section{
+        height: 50vh;
+    }
+
+    h1{
+        padding-top: 50px;
+        padding-left: 15px;
+        font-size: 1.5rem;
+    }
+
+    h4{
+        padding-top:150px;
+        padding-left: 15px;
+    }
+
+
+    .container-second-section{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+        
+        /* visibility: visible; */
+    }
+
+    .img-profile{
+        background-size: 80%;
+        width: 100%;
+        margin: auto;
+        height: 50vmax;
+        /* border: 2px solid black; */
+        
+        
+    }
+
+    .text-content{
+        margin: auto;
+        padding: 20px;
+        width: 500px;
+        
+        
+    }
+
+    #title-name{
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    #profile-description{
+        margin: auto;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+
+
+    #descarga-cv{
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    #descarga-cv:hover{
+        font-size: 1.2rem;
+        transition: ease-in 0.5s;
+        
+    }
+
+
+
+    /* ============LOGO SECTION=========== */
+    .logo-container{
+        width: 95%;
+        align-items: center;
+    }
+
+    img{
+        width: 80px;
+    }
+
+    #title-logo{
+        padding-left: 2.5%;
+    }
+
+
+    /* ==========Big section ========= */
+    
+    .container-big-section { 
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 95%;
+        height: 100vmin;
+
+    }
+
+    
+
+    .img-background{
+        background-size: 50%;
+        background-position: center;
+        width: 95%;
+        margin: auto;
+        height: 50vmax;
+    }
+
+
+
+    .text-big-section{
+        width: 45%; 
+        margin: auto;
+        
+    }
+
+
+
+    #meet{
+        color: #FFE194;
+    }
+    #kapiton{
+        padding: 30px;
+        font-size: 0.9rem;
+    }
+    #descubre{
+        text-decoration: none;
+        color: #FFE194;
+        font-size: 0.9rem;
+    }
+
+    #descubre:hover{
+        font-size: 1.3rem;
+        /* background-color: #2D6E7E; */
+        border-radius: 4px;
+        transition:ease-in 0.5s;
+    }
+    
+    .fa-long-arrow-alt-right{
+        padding: 5px 5px;
+        
+    }
+}
+
+
+
+@media only screen and (min-width: 768px){
+    label{
+        display: none;
+        
+        
+    }
+    
+    input#hamburguer-icon ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        width: 45vw;
+        color: #FFE194;
+        
+        
+    }
+
+    a{
+        color: #FFE194;
+        text-decoration: none;
+        
+    }
+
+    h1 {
+        font-size: 2rem;
+        /* padding-left:50px; */
+        /* text-align: center; */
+        
+    }
+
+    h4 {
+        /* text-align: center; */
+    }
+   
+    
+
+    .img-profile{
+        background-size: 50%;
+        background-position: top 0;
+    }
+    
+   
+    /* .container-second-section{
+        display: flex;
+        flex-direction: column;
+    } */
+
+/* ==========LOGO SECTION============ */
+    
+
+    
+
+    
+
+}
+
+
+
+
+
+
+/* ===========================Media first section========================= */
+@media only screen and ( max-width: 638px){
+    h1 {
+        font-size: 1rem;
+        padding-left: 12px;
+        padding-top: 50px;
+        
+    }
+
+    
+    
+    h4 {
+        font-size: 1rem;
+        padding-left: 12px;
+        padding-top: 50px;
+    }
+
+
+    .first-section{
+        height: 70vmin;
+    }
+/* =========Second section =========*/
+
+    .container-second-section {
+        width: 90%;
+        height:min-content;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+    }
+
+ 
+    .img-profile{
+    width: 100%;
+    height: 30vmax;
+    background-size: 50%;
+    background-position: center;
+
+    }
+
+    
+
+    #title-name{
+        font-size: 0.9rem;
+    }
+
+    #profile-description{
+        padding-top: 5px;
+        font-size: 0.8rem;
+    }
+
+    #descarga-cv{
+        text-decoration: none;
+    }
+    #descarga-cv:hover{
+        font-size: 1.2rem;
+        transition: ease-in 0.5s;
+        
+    }
+
+    /* ===========LOGO SECTION========= */
+
+    .logo-container{
+        width: 90%;
+    }
+
+    #title-logo{
+        padding-left: 5%;
+        font-size: 0.8rem;
+    }
+    /* =======BIG SECTION ====== */
+
+    .img-background{
+        background-size: 50%;
+        width:45.5vmin;
+        /* height: 100vmin;  */
+        
+
+    }
+
+    .text-big-section{
+        width: 45.5vmin;
+    }
+
+    
+    .container-big-section{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 95%;
+        
+        
+    }
+
+    .text-big-section{
+        width: 45%;
+        margin: auto;
+        align-items: center;
+    }
+    #meet{
+        color: #FFE194;
+    }
+    #kapiton{
+        padding: 30px;
+        font-size: 0.9rem;
+    }
+    #descubre{
+        text-decoration: none;
+        color: #FFE194;
+        font-size: 0.9rem;
+    }
+
+    #descubre:hover{
+        font-size: 1.3rem;
+        /* background-color: #2D6E7E; */
+        border-radius: 4px;
+        transition:ease-in 0.5s;
+    }
+    
+    .fa-long-arrow-alt-right{
+        padding: 5px 5px;
+        
+    }
+
+
+
+    .img-background{
+        background-size: 80%;
+        width: 45%;
+    }
+
+}
+
+
+
+
+
+@media only screen and ( max-width: 428px){
+    h1{
+        
+        font-size: 0.6rem;
+    }
+
+    h4{
+        
+        font-size: 0.8rem;
+    }
+   
+
+    .container-second-section{
+        width: 95%;
+        
+    }
+
+    .img-profile{
+        background-size: 50%;
+        height: 100vmin;
+    }
+
+    .text-content{
+        text-align: center;
+        padding-top: 0;
+    }
+
+
+    #title-name{
+        /* padding-top: 0; */
+        font-size: 0.9rem;
+    }
+
+    #profile-description{
+        /* padding-top: 0; */
+        font-size: 0.8rem;
+    }
+
+    #descarga-cv{
+        text-decoration: none;
+    }
+    #descarga-cv:hover{
+        font-size: 1.2rem;
+        transition: ease-in 0.5s;
+        
+    }
+
+    /* ==============LOGO SECTION=========== */
+
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        width: 95%;
+       
+    } 
+
+    #title-logo{
+        padding-left: 5%;
+        font-size: 0.8rem;
+    }
+
+    img{
+        width: 70px;
+    }
+
+    /* ===LOGO SECTION == */
+
+    .container-big-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        margin: auto;
+        width: 95%;
+        
+        
+    }
+
+    .img-background{
+        background-size: 80%;
+        /* height: 100vmin; */
+        
+
+    }
+
+    .text-big-section{
+        width: 45%; 
+        margin: auto;
+        
+    }
+
+    #meet{
+        color: #FFE194;
+    }
+    #kapiton{
+        padding: 30px;
+        font-size: 0.8rem;
+    }
+    #descubre{
+        text-decoration: none;
+        color: #FFE194;
+        font-size: 0.9rem;
+    }
+
+    #descubre:hover{
+        font-size: 1.3rem;
+        /* background-color: #2D6E7E; */
+        border-radius: 4px;
+        transition:ease-in 0.5s;
+    }
+    
+    .fa-long-arrow-alt-right{
+        padding: 5px 5px;
+        
+    }
+
+}
+
+
+
+
+

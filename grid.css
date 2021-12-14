@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* height: 100vmax; */
+    
+}
+
+
+/* ============second section============ */
+
+/* main{
+    display: grid;
+} */
+
+/* .container-second-section {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+} */
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+/* Background Animation  */
+
+body{
+    animation-name: bodyBackground;
+
+}
+
+
+@keyframes bodyBackground{
+    100%
+    {
+        background-clip: content-box;
+    }
+}
+
+
+
+
+/* class Nav animation */
+.nav-animation {
+    animation-name: navAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+/* this nav animation */
+@keyframes navAnimation{
+    10%
+    {
+        background-color: #062925;
+    }
+    10%
+    {
+        background-color: #02383C;
+    }
+}
+
+/* name-text h1 Animation  */
+
+.name-text {
+    
+    animation: name-animation 5s steps(45),
+    cursor 0.5s steps(45) infinite alternate-reverse;
+    
+}
+
+
+@keyframes name-animation {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 45ch;
+    }
+
+}
+
+@keyframes cursor {
+    50%{
+        border-color: transparent
+        
+    }
+}
